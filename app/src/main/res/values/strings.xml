@@ -1,0 +1,10 @@
+<!--
+Created by Strix - http://strixdev.co.uk
+-->
+
+<resources>
+    <string name="app_name">Strix - Toggle Button Example</string>
+    <string name="toggle_on">Turn On</string>
+    <string name="toggle_off">Turn Off</string>
+    <string name="btn_check_state">Check If On Or Off</string>
+</resources>

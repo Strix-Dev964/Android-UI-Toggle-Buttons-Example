@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Created by Strix - http://strixdev.co.uk
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ToggleButton
+        android:id="@+id/toggle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <ToggleButton
+        android:id="@+id/toggle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/toggle1"
+        android:layout_marginTop="20dp"
+        android:textOn="@string/toggle_on"
+        android:textOff="@string/toggle_off"
+        android:checked="true" />
+
+    <Button
+        android:id="@+id/btnCheckState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/toggle2"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_check_state" />
+
+</RelativeLayout>
